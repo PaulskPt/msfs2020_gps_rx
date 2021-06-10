@@ -110,7 +110,7 @@ def loop():
 
     TAG = "loop(): "
     chrs_rcvd = 0
-    lStop = False
+    lstop = False
     lcd.clear()
     lcd.set_cursor_pos(0, 0)
     lcd.print("MSFS 2020      ")
