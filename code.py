@@ -45,8 +45,7 @@ lcd = LCD(I2CPCF8574Interface(0x27), num_rows=4, num_cols=20)
 sleep(1)
 uart = UART(pin.GPIO0, pin.GPIO1, baudrate=9600)
 
-BI_LED = pin.GPIO25
-led = digitalio.DigitalInOut(BI_LED)
+led = digitalio.DigitalInOut(pin.GPIO25)
 led.direction = digitalio.Direction.OUTPUT
 biLdIsOn = False
 
