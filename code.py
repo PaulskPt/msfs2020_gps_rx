@@ -1,4 +1,4 @@
-                                                                                                                                                                            
+
 """
     FOR CIRCUITPYTHON ONLY
 
@@ -51,7 +51,7 @@ biLdIsOn = False
 
 if sys.version_info > (3,):
     long = int
-    
+
 class gps_msgs:
     def __init__(self):
         self.gps =    ["",  "",  "",  "",  "", "", "", ""]
@@ -317,7 +317,7 @@ def lcd_pr_msgs():
                 if dp == 4:
                     s = "{: >2s}\xDF{:0>2s}\'{:0>2s}.{:0>2s}\"".format(lat_v[:2], lat_v[2:4], lat_v[5:7],lat_v[7:])
                 elif dp == 3:
-                    s = "{: >2s}\xDF{:0>2s}\'{:0>2s}.{:0>2s}\"".format(lat_v[:1], lat_v[1:3], lat_v[4:6],lat_v[6:])
+                    s = "{: >2s}\xDF{:0>2s}\'{:0>2s}.{:0>2s}\" ".format(lat_v[:1], lat_v[1:3], lat_v[4:6],lat_v[6:])
             s = my_msgs.read(latID) + "    " + s
         if msg_itm == lon:
             lon_v = my_msgs.read(lon)
