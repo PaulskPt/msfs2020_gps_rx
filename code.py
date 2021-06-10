@@ -257,18 +257,21 @@ def split_types():
 
 def bfr_fnd(ck_val):
     global rx_buffer
-    retval = -1
-    for i in range(len(rx_buffer)):
+    c = ""
+    n = -1
+    p = isinstance(ck_val, type(None))
+    if p == True:
+        return -1
+    else:
+        c = chr(ck_val)
+
         try:
-            buf_val = ord(rx_buffer.decode(encoding)[i])
+            t_bfr = rx_buffer.decode(encoding)
+            n = t_bfr.find(c)
         except UnicodeError:
-            break
-        if buf_val == 0:
-            break
-        if ck_val == buf_val:
-            retval = i
-            break
-    return retval
+            print("bfr_fnd(): Unicode Error. Check baudrate.", end="\n")
+
+        return n
 
 def led_toggle():
     global biLdIsOn
