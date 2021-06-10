@@ -3,6 +3,7 @@ MIT License
 Copyright (c) 2021 Paulus H.J. Schulinck
 Adafruit Libraries used:
 SPDX-FileCopyrightText: 2016 Scott Shawcroft for Adafruit Industries
+LCD library:  Copyright (C) 2017 Dan Halbert
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
