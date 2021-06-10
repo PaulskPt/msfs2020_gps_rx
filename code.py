@@ -26,7 +26,7 @@
     This is the main python script for the project 'msfs2020_gps_rx',
     using a Raspberry Pi Pico dev board, mounted on a Seeed Grove Shield for Pi Pico
     Attached to it via I2C: a 4x20 character Hitachi 44780 LCD with piggy-back I2C expander.
-    See the README.md for details about this project.
+    See the README.md and documentation folder for details about this project.
 """
 from lcd.lcd import LCD
 from lcd.i2c_pcf8574_interface import I2CPCF8574Interface
