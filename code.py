@@ -23,7 +23,7 @@
 
     (Using firmware: Adafruit CircuitPython 7.0.0-alpha.3-15-gbc014cecb on 2021-06-04; Raspberry Pi Pico with rp2040)
 
-    This is the main python script for the project 'RPi_GPRMC_GPGGA_RX',
+    This is the main python script for the project 'msfs2020_gps_rx',
     using a Raspberry Pi Pico dev board, mounted on a Seeed Grove Shield for Pi Pico
     Attached to it via I2C: a 4x20 character Hitachi 44780 LCD with piggy-back I2C expander.
     See the README.md for details about this project.
