@@ -1,5 +1,9 @@
-MIT License
+License
 
+For: Adafruit Busdevice Library: SPDX-FileCopyrightText: 2016 Scott Shawcroft for Adafruit Industries
+For: LCD library:  Copyright (C) 2017 Dan Halbert
+
+For the rest: MIT License
 Copyright (c) 2021 Paulus H.J. Schulinck
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
